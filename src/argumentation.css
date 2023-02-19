@@ -1,0 +1,14 @@
+.impBox, .negationBox, .andBox, .orBox{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.orBox{
+    flex-direction: column;
+    border: 4px #444 solid;
+}
+.andBox{
+    flex-direction: column;
+    border: 4px #444 solid;
+}

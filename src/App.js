@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Argumentation from './argumentation';
+
+const args = ["IMP",["AND", ["IMP","a",["NOT","b"],"e","f"],["IMP",["OR",["NOT","c"],["IMP","b","e"]],"f"]],"d"]
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{display: "flex", padding: "100px"}}>
+      <Argumentation args={args}/>
     </div>
   );
 }
