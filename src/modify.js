@@ -8,8 +8,8 @@ const Modify = ({index}) => {
   if(formula[index].id === 0)
     return <></>
 
-  const rmvFormula = ()=>{}
-  const notFormula = ()=>{}
+  const rmvFormula = ()=>{} //to be implemented
+  const notFormula = ()=>{} //to be implemented
 
   const addFormula = (type)=>{
     const newFormula = formula.slice()

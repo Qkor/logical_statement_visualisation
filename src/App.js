@@ -1,4 +1,3 @@
-import './App.css';
 import Argumentation from './argumentation';
 import { useState, createContext } from 'react';
 

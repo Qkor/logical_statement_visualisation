@@ -19,7 +19,6 @@ button{
     cursor: pointer;
     color: royalblue;
     border: solid royalblue 1px;
-    border-radius: 50%;
     font-size: 6px;
     transition: .3s;
 }
