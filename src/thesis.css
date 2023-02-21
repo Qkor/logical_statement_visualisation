@@ -1,7 +1,16 @@
 .thesisBox{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    background-color: #fff6e5;
+    position: relative;
+    box-shadow: 0 0 5px aliceblue;
     border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+}
+.thesisBox textarea{
+    margin-top: 10px;
+    border: none;
+    min-width: 100px;
+    min-height: 20px;
+    background-color: transparent;
+    color: aliceblue;
+    text-align: center;
 }

@@ -1,14 +1,16 @@
-.impBox, .negationBox, .andBox, .orBox{
+.IMP, .NOT, .AND, .OR{
+    position: relative;
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 20px;
     border-radius: 5px;
+    box-shadow: 0 0 10px #444;
 }
-.orBox{
+.AND, .OR{
     flex-direction: column;
-    border: 4px #444 solid;
 }
-.andBox{
-    flex-direction: column;
-    border: 4px #444 solid;
+.operator{
+    margin: 5px;
+    color: aliceblue;
+    text-shadow: 0 0 1px aliceblue;
 }
